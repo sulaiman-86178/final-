@@ -45,8 +45,8 @@ input{
   width: 150px;
   padding: 7px; */
 
-  background-color: #FFF7FC; /* Green */
-     border: none;
+  background-color: white; /* Green */
+     border: 2px solid green;
      color: white;
      padding: 10px 20px;
      text-align: center;
@@ -64,9 +64,9 @@ button{
   width: 150px;
   padding: 7px; */
 
-  background-color: #FFF7FC; /* Green */
-     border: none;
-     color: white;
+  background-color: white; /* Green */
+     border: 2px solid green;
+     color: green;
      padding: 10px 20px;
      text-align: center;
      text-decoration: none;
@@ -83,7 +83,7 @@ button{
   body{
     display: flex;
     padding: 0;
-    background-image: url('back.jpg');
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -97,12 +97,12 @@ button{
     /* justify-content: center; */
     border-top:10px solid green;
     background-color: white;
-  
+    gap:10;
   }
 
   .right{
     position: relative;
-    top: 0;
+    top: -40px;
     display: flex;
     gap:10px;
     flex-direction: column;
@@ -112,5 +112,11 @@ button{
   }
   img{
     padding: 5px;
+  }
+  .left{
+  display: flex;
+  gap:10px;
+  position: relative;
+  top: 40px;
   }
 }
