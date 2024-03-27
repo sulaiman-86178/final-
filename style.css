@@ -1,0 +1,116 @@
+
+body{
+  display: flex;
+  padding: 50px;
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  width: 12000px;
+  height: 400px;
+  /* justify-content: center; */
+  border-top:10px solid green;
+  background-color: white;
+gap:250px;
+}
+img{
+  padding: 10px;
+}
+.left{
+display: flex;
+gap:10px;
+
+}
+.me{
+  display:flex;
+  flex-direction:column;
+  width: 190px;
+  position: relative;
+  top: 20px;
+}
+h2{
+  color:  green;
+}
+.right{
+  position: relative;
+  top: 100px;
+  display: flex;
+  gap:10px;
+}
+input{
+  /* border-radius: 5px;
+  width: 150px;
+  padding: 7px; */
+
+  background-color: #FFF7FC; /* Green */
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 8px;
+     transition: background-color 0.3s ease; /* Add transition effect */
+
+}
+button{
+  /* width: 100px;
+  width: 150px;
+  padding: 7px; */
+
+  background-color: #FFF7FC; /* Green */
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 8px;
+     transition: background-color 0.6s ease; /* Add transition effect */
+
+}
+ @media (max-width:600px) {
+
+  body{
+    display: flex;
+    padding: 0;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+
+    /* width: 12000px;
+    height: 400px; */
+    /* justify-content: center; */
+    border-top:10px solid green;
+    background-color: white;
+  
+  }
+
+  .right{
+    position: relative;
+    top: 0;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  img{
+    padding: 5px;
+  }
+}
