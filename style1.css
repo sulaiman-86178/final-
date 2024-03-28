@@ -160,5 +160,11 @@ transition: transform 350ms ease-out;
     justify-content: center;
   }
 
+  .animation-text {
+      font-size: 35px; /* You can adjust the font size */
+      color: #333; /* Initial text color */
+      animation: changeColor 5s infinite; /* Apply animation to change color over 5 seconds infinitely */
+    }
+
 
 }
